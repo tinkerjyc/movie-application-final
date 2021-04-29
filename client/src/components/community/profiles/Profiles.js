@@ -26,7 +26,7 @@ const Profiles = ({
             <div className="home-title">
               <h1 className='large text-primary'>Community</h1>
               <p className='lead text-center text-light'>
-                See how people think about MovieDB here
+                See how people think about Movie Manager here
               </p>
             </div>
             <div className='profiles'>

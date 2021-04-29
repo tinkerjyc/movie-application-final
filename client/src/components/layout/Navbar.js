@@ -93,7 +93,7 @@ const Navbar = ({ auth: { isAuthenticated, user }, logout, getCurrentProfile}) =
             onClick={(e) => { e.target.parentElement.style.display = 'none'; }}
           >&times;</span>
 
-          <p>Welcome to MovieDB website </p>
+          <p>Welcome to Movie Manager website </p>
         </div>
       </header>
     </nav >
