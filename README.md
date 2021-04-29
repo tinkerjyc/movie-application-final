@@ -1,7 +1,7 @@
-# Movie-Rating-Web
+# Movie-Manager-Web
 Web Development Project
 
-Project name: Movie Rating Website
+Project name: Movie Manager Website
 Project team member: 
 - Xingbo Liu liu.xingb@northeastern.edu
 - Yicheng Jiang jiang.yich@northeastern.edu
