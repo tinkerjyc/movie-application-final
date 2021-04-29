@@ -48,7 +48,6 @@ const Navbar = ({ auth: { isAuthenticated, user }, logout, getCurrentProfile}) =
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <Link className="navbar-brand" to="/">
               <div className="row justify-content-center align-items-center">
-                <img style={{ width: "80px", height: "60px" }} src={require('../../asset/tmdb.png')} alt={""} />
                 <h2 className="ml-2">Home</h2>
               </div>
             </Link>
@@ -88,18 +87,13 @@ const Navbar = ({ auth: { isAuthenticated, user }, logout, getCurrentProfile}) =
             </div>
           </nav>
         </section>
-        <div className="alert alert-warning" role="alert">
+        <div className="alert alert-primary" role="alert">
           <span
             className="closebtn"
             onClick={(e) => { e.target.parentElement.style.display = 'none'; }}
           >&times;</span>
 
-          <p>
-            <img style={{ width: "80px", height: "60px" }} src={require('../../asset/background2.png')} alt={""} />
-            Welcome to MovieDB website </p>
-          More movie information visit <a href="https://www.themoviedb.org/?language=en-US"
-            className="alert-link"
-          >TMDB</a>
+          <p>Welcome to MovieDB website </p>
         </div>
       </header>
     </nav >

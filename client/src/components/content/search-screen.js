@@ -57,7 +57,6 @@ const SearchScreen = () => {
                         (searchTitle !== undefined && searchTitle !== "") &&
                         <Link to={`/search/${searchTitle}/page/1`}
                               className="btn btn-primary">
-                            <img width="25" src={searchmovie} />
                             Search Movie
                         </Link>
                     }
@@ -65,7 +64,6 @@ const SearchScreen = () => {
                         (searchTitle === undefined || searchTitle === "") &&
                         <Link to={`/search`}
                               className="btn btn-primary">
-                            <img width="25" src={searchmovie} />
                             Search Movie
                         </Link>
                     }

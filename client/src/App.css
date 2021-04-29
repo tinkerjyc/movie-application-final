@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-image: url(asset/dropdown_bg.jpg);
 }
 
 header {
@@ -92,7 +91,7 @@ ul {
 
 /* Global Styles */
 :root {
-  --primary-color: #52c2eb;
+  --primary-color: #5297eb;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -102,8 +101,7 @@ ul {
 /* Landing Page */
 .landing {
   position: relative;
-  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #52c7eb;
 }
 
 .landing-inner {
@@ -114,7 +112,6 @@ ul {
   color: #fff;
   height: 100%;
   width: 40%;
-  background: url("./asset/movie.png") no-repeat center center/cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -141,13 +138,11 @@ ul {
 }
 
 .auth-bg-register {
-  background-image: url(asset/movie-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .auth-bg-login {
-  background-image: url(asset/movies-icon.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -183,7 +178,7 @@ ul {
   padding-bottom: 20px;
 }
 
-.alert-warning {
+.alert-primary {
   margin-bottom: 0;
 }
 

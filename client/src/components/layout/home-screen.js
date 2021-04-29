@@ -10,23 +10,6 @@ const HomeScreen = ({ auth: { isAuthenticated, user } }) => {
   return (
     <section className='landing'>
       <div className=''>
-        <div className='landing-inner'>
-          <div className='landing-inner-text'>
-            <h1 className='x-large'>MovieDB Search</h1>
-            <p className='lead'>
-              Welcome.
-            <br></br>Millions of movies, TV shows and people to discover. Explore now.
-          </p>
-          </div>
-          <div>
-            <Link to='/register' className='btn btn-primary'>
-              Sign Up
-            </Link>
-            <Link to='/login' className='btn btn-light'>
-              Login
-            </Link>
-          </div>
-        </div>
         {
           isAuthenticated &&
           <>
