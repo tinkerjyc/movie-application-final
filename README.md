@@ -38,7 +38,10 @@ Users can be granted access to sites:
 	Review(post text comment) and rate movie
 	Add/modify favorite list
 	Add/modify watch later list
- 
+
+***UML***
+![blockchain](https://github.com/tinkerjyc/movie-application-final/blob/main/uml.png "UML")
+
 **2.State the overall strategy of how you intend to solve the problem**
 
 By using TMDB API to support our date, we would like to build a website which supports users including general users and guests. We could give users the authority to rate, and give guests the authority to review their favorite list or watch for later list.
