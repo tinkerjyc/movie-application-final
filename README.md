@@ -2,7 +2,8 @@
 Web Development Project
 
 Project name: Movie Rating Website
-Project team member: Huilian Jiang, Yufeng Gao, Jiazhen Tang
+Project team member: - Xingbo Liu liu.xingb@northeastern.edu
+					 - Yicheng Jiang jiang.yich@northeastern.edu
  
 **1.State the problem you are trying to solve**
  
